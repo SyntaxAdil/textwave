@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@layer base {
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+}
+@layer components {
+  .custom-container {
+    max-width: 1200px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .bg-custom-gradiant{
+    background: linear-gradient(220deg,#9100F8,#FB09B4,#F7E93F);
+       
+  }
+   .text-custom-gradiant{
+    background: linear-gradient(#9100F8,#FB09B4,#F7E93F);
+       
+  }
+}
+@layer utilities {
+  .bg-primary {
+    background-color: rgb(26, 11, 46);
+  }
+  .bg-secondary {
+    background-color: #230e3d;
+  }
+ 
+}
