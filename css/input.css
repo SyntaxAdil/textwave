@@ -27,5 +27,19 @@
   .bg-secondary {
     background-color: #230e3d;
   }
+
+  .animation-custom{
+    animation: custom-animation 2s ease-in-out infinite alternate;
+  }
+  @keyframes custom-animation {
+    from{
+      transform: translateY(-5px);
+    }
+    to{
+      transform: translateY(5px);
+
+    }
+    
+  }
  
 }
