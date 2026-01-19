@@ -9,7 +9,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-"
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -29,45 +28,48 @@
     <header class="bg-primary sticky top-0 z-50">
       <!-- nav start -->
       <nav
-        class="py-5 md:py-7.5 border-b border-[#412567] bg-primary shadow-lg shadow-[#17082c7a]"
+        class="py-5 lg:py-7.5 border-b border-[#412567] bg-primary shadow-lg shadow-[#17082c7a]"
       >
         <div class="custom-container flex justify-between">
-          <h1
-            class="font-extrabold lg:text-5xl text-white md:text-4xl sm:text-3xl text-3xl tracking-tighter"
-          >
-            Tech<span class="text-custom-gradiant bg-clip-text text-transparent"
-              >Wave</span
+          <a href="#">
+            <h1
+              class="font-extrabold lg:text-5xl text-white sm:text-3xl text-3xl tracking-tighter"
             >
-          </h1>
-          <ul class="hidden md:flex gap-8 items-center">
+              Tech<span
+                class="text-custom-gradiant bg-clip-text text-transparent"
+                >Wave</span
+              >
+            </h1>
+          </a>
+          <ul class="hidden lg:flex gap-8 items-center">
             <li>
               <a
-                href="#"
+                href="#about"
                 class="text-white font-medium text-base transition-colors duration-200 hover:text-[#9100F8]"
                 >About</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#episode"
                 class="text-white font-medium text-base transition-colors duration-200 hover:text-[#9100F8]"
                 >Episodes</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#host"
                 class="text-white font-medium text-base transition-colors duration-200 hover:text-[#9100F8]"
                 >Host</a
               >
             </li>
           </ul>
           <button
-            class="hidden md:flex bg-custom-gradiant rounded-full py-3 px-4 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-purple-500 text-base gap-1 items-center"
+            class="hidden lg:flex bg-custom-gradiant rounded-full py-3 px-4 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-purple-500 text-base gap-1 items-center"
           >
             Subscribe <i class="fas fa-arrow-right"></i>
           </button>
-          <button class="block md:hidden cursor-pointer">
+          <button class="block lg:hidden cursor-pointer">
             <i class="fas fa-bars text-white text-2xl"></i>
           </button>
         </div>
@@ -76,27 +78,27 @@
 
     <!-- hero section -->
     <section
-      class="py-25 bg-[url('./assets/header-responsive.png')] md:bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat bg-center"
+      class="py-25 bg-[url('./assets/header-responsive.png')] lg:bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat bg-center"
     >
       <div class="custom-container">
         <div class="flex justify-center items-center flex-col">
           <div
-            class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center bg-cover w-[200px] h-[200px] md:w-[350px] md:h-[350px] flex items-center justify-center relative"
+            class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center bg-cover w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] flex items-center justify-center relative"
           >
             <img
-              class="w-20 p-4 md:w-auto md:h-auto"
+              class="w-20 p-4 lg:w-auto lg:h-auto"
               src="./assets/microphone.png"
               alt="microphone"
             />
             <span
-              class="absolute top-2 right-0 md:top-4 md:right-10 py-2 px-4 bg-[#00ff88] text-[#1A0B2E] font-semibold text-base md:text-[18px] rounded-full shadow-[0_3px_27px_0_#00FF8880] animation-custom duration-700"
+              class="absolute top-2 right-0 lg:top-4 lg:right-10 py-2 px-4 bg-[#00ff88] text-[#1A0B2E] font-semibold text-base lg:text-[18px] rounded-full shadow-[0_3px_27px_0_#00FF8880] animation-custom duration-700"
               >New</span
             >
           </div>
 
-          <div class="max-w-[550px] text-center mt-5 md:mt-10">
+          <div class="max-w-[550px] text-center mt-5 lg:mt-10">
             <h2
-              class="text-[40px] md:text-[60px] font-extrabold mb-1 text-white"
+              class="text-[40px] lg:text-[60px] font-extrabold mb-1 text-white"
             >
               TechWave
             </h2>
@@ -124,14 +126,14 @@
     </section>
 
     <!-- ABOUT SECTION -->
-    <section>
+    <section id="about" class="pb-10 lg:pt-[60px] scroll-mt-10">
       <div class="custom-container">
-        <div class="text-center py-10 md:py-[50px] border-b border-white/10">
-          <h3 class="text-[32px] md:text-[48px] text-white font-bold mb-2">
+        <div class="text-center pb-10 lg:pb-[50px] border-b border-white/10">
+          <h3 class="text-[32px] lg:text-[48px] text-white font-bold mb-2">
             About the Podcast
           </h3>
           <p
-            class="max-w-[400px] md:max-w-3xl text-base text-neutral-400 mx-auto mb-10"
+            class="max-w-[400px] lg:max-w-3xl text-base text-neutral-400 mx-auto mb-5 lg:mb-10"
           >
             TechWave is your go-to podcast for staying ahead in the fast-paced
             world of technology. We break down complex topics into digestible
@@ -140,7 +142,7 @@
           </p>
 
           <p
-            class="max-w-[400px] md:max-w-3xl text-base text-neutral-400 mx-auto"
+            class="max-w-[400px] lg:max-w-3xl text-base text-neutral-400 mx-auto"
           >
             Join thousands of young professionals and tech enthusiasts who start
             their day with TechWave.
@@ -148,28 +150,28 @@
         </div>
 
         <div
-          class="flex justify-around items-center pt-10 md:pt-20 pb-10 md:pb-[120px] flex-wrap text-center gap-5"
+          class="grid grid-cols-2 lg:grid-cols-4 gap-5 pt-10 lg:pt-20 pb-10 lg:pb-[120px] text-center"
         >
           <div>
-            <h3 class="text-[40px] md:text-[48px] font-black text-[#00FF88]">
+            <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               150K+
             </h3>
             <p class="text-neutral-400">Monthly Listeners</p>
           </div>
           <div>
-            <h3 class="text-[40px] md:text-[48px] font-black text-[#00FF88]">
+            <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               200+
             </h3>
             <p class="text-neutral-400">Episodes Published</p>
           </div>
           <div>
-            <h3 class="text-[40px] md:text-[48px] font-black text-[#00FF88]">
+            <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               4.9★
             </h3>
             <p class="text-neutral-400">Average Rating</p>
           </div>
           <div>
-            <h3 class="text-[40px] md:text-[48px] font-black text-[#00FF88]">
+            <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               50+
             </h3>
             <p class="text-neutral-400">Industry Experts</p>
@@ -179,19 +181,19 @@
     </section>
 
     <!-- Choose section -->
-    <section class="py-10 md:py-[120px] bg-[#230e3d]">
+    <section class="py-10 lg:py-[120px] bg-[#230e3d]">
       <div class="custom-container">
         <h3
-          class="text-[31px] md:text-[48px] text-white font-bold text-center mb-10"
+          class="text-[31px] lg:text-[48px] text-white font-bold text-center mb-10"
         >
           Why Choose TechWave
         </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
           <div
-            class="rounded-3xl md:rounded-[40px] bg-[#2a0f4d] py-[107px] p-10 md:row-span-2 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:py-[107px] lg:px-10 lg:row-span-2 col-span-1 row-span-1"
           >
             <img src="./assets/headphone.png" alt="headphone" />
-            <h3 class="text-[22px] md:text-[24px] my-4 font-bold text-white">
+            <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
               Premium Audio Quality
             </h3>
             <p class="text-neutral-400 text-base">
@@ -201,10 +203,10 @@
             </p>
           </div>
           <div
-            class="rounded-3xl md:rounded-[40px] bg-[#2a0f4d] p-10 md:col-span-2 md:row-span-1 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-10 lg:col-span-2 lg:row-span-1 col-span-1 row-span-1"
           >
             <img src="./assets/device.png" alt="device" />
-            <h3 class="text-[22px] md:text-[24px] my-4 font-bold text-white">
+            <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
               Mobile Friendly
             </h3>
             <p class="text-neutral-400 text-base">
@@ -213,10 +215,10 @@
             </p>
           </div>
           <div
-            class="rounded-3xl md:rounded-[40px] bg-[#2a0f4d] p-10 md:col-span-2 md:row-span-1 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-10 lg:col-span-2 lg:row-span-1 col-span-1 row-span-1"
           >
             <img src="./assets/location.png" alt="device" />
-            <h3 class="text-[22px] md:text-[24px] my-4 font-bold text-white">
+            <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
               Global Community
             </h3>
             <p class="text-neutral-400 text-base">
@@ -224,10 +226,10 @@
             </p>
           </div>
           <div
-            class="rounded-3xl md:rounded-[40px] bg-[#2a0f4d] p-11 md:col-span-2 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-11 lg:col-span-2 col-span-1 row-span-1"
           >
             <img src="./assets/interview.png" alt="device" />
-            <h3 class="text-[22px] md:text-[24px] my-4 font-bold text-white">
+            <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
               Exclusive Interviews
             </h3>
             <p class="text-neutral-400 text-base">
@@ -238,10 +240,10 @@
             </p>
           </div>
           <div
-            class="rounded-3xl md:rounded-[40px] bg-[#2a0f4d] p-11 md:col-span-1 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-11 lg:col-span-1 col-span-1 row-span-1"
           >
             <img src="./assets/resource.png" alt="device" />
-            <h3 class="text-[22px] md:text-[24px] my-4 font-bold text-white">
+            <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
               Rich Resources
             </h3>
             <p class="text-neutral-400 text-base">
@@ -253,15 +255,15 @@
       </div>
     </section>
     <!-- Featured Episodes -->
-    <section class="py-10 md:py-[120px]">
+    <section class="pt-10 lg:pt-[120px]" id="episode">
       <div class="custom-container">
         <h3
-          class="text-[31px] md:text-[48px] text-white font-bold text-center mb-6 md:mb-10"
+          class="text-[31px] lg:text-[48px] text-white font-bold text-center mb-6 lg:mb-10"
         >
           Featured Episodes
         </h3>
         <div
-          class="flex justify-center md:justify-between flex-wrap items-center"
+          class="flex justify-center lg:justify-between flex-wrap items-center"
         >
           <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8">
             <div class="relative">
@@ -294,7 +296,7 @@
             </div>
             <div class="p-6">
               <h3
-                class="text-[20px] md:text-[24px] text-white mb-2 md:mb-3 font-bold"
+                class="text-[20px] lg:text-[24px] text-white mb-2 lg:mb-3 font-bold"
               >
                 The Future of AI in Everyday Life
               </h3>
@@ -339,7 +341,7 @@
             </div>
             <div class="p-6">
               <h3
-                class="text-[20px] md:text-[24px] text-white mb-2 md:mb-3 font-bold"
+                class="text-[20px] lg:text-[24px] text-white mb-2 lg:mb-3 font-bold"
               >
                 Building Better Habits for Remote Work
               </h3>
@@ -384,7 +386,7 @@
             </div>
             <div class="p-6">
               <h3
-                class="text-[20px] md:text-[24px] text-white mb-2 md:mb-3 font-bold"
+                class="text-[20px] lg:text-[24px] text-white mb-2 lg:mb-3 font-bold"
               >
                 Career Growth in Tech: A Roadmap
               </h3>
@@ -402,25 +404,25 @@
       </div>
     </section>
     <!-- Meet the Host -->
-    <section class="pb-10 md:pb-[120px]">
+    <section class="py-10 lg:py-[120px]" id="host">
       <div class="custom-container">
         <h3
-          class="text-[31px] md:text-[48px] text-white font-bold text-center mb-6 md:mb-10"
+          class="text-[31px] lg:text-[48px] text-white font-bold text-center mb-6 lg:mb-10"
         >
           Meet the Host
         </h3>
 
         <div
-          class="w-full rounded-3xl md:rounded-[40px] bg-[#250d44] p-6 md:p-10 flex flex-col text-center md:text-left md:flex-row gap-6 items-center"
+          class="w-full rounded-3xl lg:rounded-[40px] bg-[#250d44] p-6 lg:p-10 flex flex-col text-center lg:text-left lg:flex-row gap-6 items-center"
         >
           <img
             src="./assets/host.png"
             alt="host"
-            class="w-[150px] h-[150px] md:w-[200px] md:h-[200px]"
+            class="w-[150px] h-[150px] lg:w-[200px] lg:h-[200px]"
           />
 
           <div>
-            <h3 class="text-white text-[24px] md:text-[32px] mb-2">
+            <h3 class="text-white text-[24px] lg:text-[32px] mb-2">
               Alex Kumar
             </h3>
             <p class="text-base text-neutral-400 mt-0">
@@ -430,7 +432,7 @@
               insights from industry leaders and practical advice for anyone
               looking to grow in tech.
             </p>
-            <div class="flex gap-2 mt-4 justify-center md:justify-start">
+            <div class="flex gap-2 mt-4 justify-center lg:justify-start">
               <div
                 class="rounded-full w-10 h-10 flex items-center justify-center cursor-pointer border border-[#533C72]"
               >
@@ -466,7 +468,7 @@
     </section>
 
     <footer
-      class="py-10 md:py-[120px] bg-[url('./assets/footer-bg-responsive.png')] md:bg-[url('./assets/footer-bg.png')] bg-cover bg-center"
+      class="py-10 lg:py-[120px] bg-[url('./assets/footer-bg-responsive.png')] lg:bg-[url('./assets/footer-bg.png')] bg-cover bg-center"
     >
       <div class="custom-container">
         <div class="mx-auto max-w-[544px] text-center">
@@ -479,7 +481,7 @@
           </h1>
 
           <ul
-            class="flex gap-4 md:gap-10 justify-center my-4 md:my-[34px] flex-wrap max-w-[255px] md:max-w-[544px] mx-auto"
+            class="flex gap-4 lg:gap-10 justify-center my-4 lg:my-[34px] flex-wrap max-w-[255px] lg:max-w-[544px] mx-auto"
           >
             <li>
               <a
@@ -519,7 +521,9 @@
             </li>
           </ul>
 
-          <small class="text-base text-neutral-400 "> © 2026 TechWave Podcast. All rights reserved.</small>
+          <small class="text-base text-neutral-400">
+            © 2026 TechWave Podcast. All rights reserved.</small
+          >
         </div>
       </div>
     </footer>

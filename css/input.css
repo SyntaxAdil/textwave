@@ -1,4 +1,8 @@
 @import "tailwindcss";
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+}
 @layer base {
   .font-inter {
     font-family: "Inter", sans-serif;
