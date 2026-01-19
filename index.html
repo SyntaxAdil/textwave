@@ -62,7 +62,7 @@
             </li>
           </ul>
           <button
-            class="hidden md:flex bg-custom-gradiant rounded-full py-3 px-4 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-purple-500 text-base gap-1 items-center"
+            class="hidden md:flex bg-custom-gradiant rounded-full py-3 px-4 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1  shadow-sm hover:shadow-purple-500 text-base gap-1 items-center"
           >
             Subscribe <i class="fas fa-arrow-right"></i>
           </button>
@@ -74,5 +74,50 @@
 
       
     </header>
+
+    <!-- hero section -->
+    <section
+      class="py-25 bg-[url('./assets/header-responsive.png')] md:bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat bg-center"
+    >
+      <div class="custom-container">
+        <div class="flex justify-center items-center flex-col">
+          <div
+            class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center bg-cover w-[200px] h-[200px] md:w-[350px] md:h-[350px] flex items-center justify-center relative"
+          >
+            <img
+              class="w-20 p-4 md:w-auto md:h-auto"
+              src="./assets/microphone.png"
+              alt="microphone"
+            />
+            <span
+              class="absolute top-2 right-0 md:top-4 md:right-10 py-2 px-4 bg-[#00ff88] text-[#1A0B2E] font-semibold text-[18px] rounded-full shadow-[0_3px_27px_0_#00FF8880] animate-bounce  duration-700  "
+              >New</span
+            >
+          </div>
+
+          <div class="max-w-[550px] text-center mt-5 md:mt-10">
+            <h2 class="text-[60px] font-extrabold mb-1 text-white">TechWave</h2>
+            <p class="text-base font-normal text-neutral-300 mb-8">
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+            <div class="flex items-center gap-2 justify-center">
+              <button
+                class="flex bg-custom-gradiant rounded-full py-3 px-6 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-purple-500 text-base gap-1 items-center"
+              >
+                <img src="./assets/spotify.png" alt="" />
+                Listen on Spotify
+              </button>
+              <button
+                class="flex bg-transparent border border-[#00FF88] rounded-full py-3 px-6 text-[#00FF88] font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-[#00FF88] text-base gap-1 items-center"
+              >
+                <img src="./assets/message.png" alt="" />
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
