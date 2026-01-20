@@ -30,7 +30,7 @@
       <nav
         class="py-5 lg:py-7.5 border-b border-[#412567] bg-primary shadow-lg shadow-[#17082c7a]"
       >
-        <div class="custom-container flex justify-between">
+        <div class="custom-container flex justify-between ">
           <a href="#">
             <h1
               class="font-extrabold lg:text-5xl text-white sm:text-3xl text-3xl tracking-tighter"
@@ -65,7 +65,7 @@
             </li>
           </ul>
           <button
-            class="hidden lg:flex bg-custom-gradiant rounded-full py-3 px-4 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-purple-500 text-base gap-1 items-center"
+            class="hidden lg:flex bg-custom-gradiant rounded-full py-3 px-4 text-white font-semibold cursor-pointer transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-purple-500 text-base gap-1 items-center animation-custom hover:[animation-play-state:paused] "
           >
             Subscribe <i class="fas fa-arrow-right"></i>
           </button>
@@ -78,12 +78,12 @@
 
     <!-- hero section -->
     <section
-      class="py-25 bg-[url('./assets/header-responsive.png')] lg:bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat bg-center"
+      class="py-25 bg-[url('./assets/header-responsive.png')] lg:bg-[url('./assets/hero-bg.png')] bg-cover bg-no-repeat bg-center  animate-fadeshow"
     >
-      <div class="custom-container">
+      <div class="custom-container animate-fadeup">
         <div class="flex justify-center items-center flex-col">
           <div
-            class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center bg-cover w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] flex items-center justify-center relative"
+            class="bg-[url('./assets/hero-circle.png')] bg-no-repeat bg-center bg-cover w-[200px] h-[200px] lg:w-[350px] lg:h-[350px] flex items-center justify-center relative animation-custom duration-700 "
           >
             <img
               class="w-20 p-4 lg:w-auto lg:h-auto"
@@ -126,7 +126,7 @@
     </section>
 
     <!-- ABOUT SECTION -->
-    <section id="about" class="pt-10 lg:pt-[60px] scroll-mt-10">
+    <section id="about" class="pt-10 lg:pt-[60px] scroll-mt-10 scroll-animate-fadeup">
       <div class="custom-container">
         <div class="text-center pb-10 lg:pb-[50px] border-b border-white/10">
           <h3 class="text-[32px] lg:text-[48px] text-white font-bold mb-2">
@@ -152,25 +152,25 @@
         <div
           class="grid grid-cols-2 lg:grid-cols-4 gap-5 pt-10 lg:pt-20 pb-10 lg:pb-[120px] text-center"
         >
-          <div>
+          <div class="scroll-animate-fadeup">
             <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               150K+
             </h3>
             <p class="text-neutral-400">Monthly Listeners</p>
           </div>
-          <div>
+          <div class="scroll-animate-fadeup">
             <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               200+
             </h3>
             <p class="text-neutral-400">Episodes Published</p>
           </div>
-          <div>
+          <div class="scroll-animate-fadeup">
             <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               4.9★
             </h3>
             <p class="text-neutral-400">Average Rating</p>
           </div>
-          <div>
+          <div class="scroll-animate-fadeup">
             <h3 class="text-[40px] lg:text-[48px] font-black text-[#00FF88]">
               50+
             </h3>
@@ -181,7 +181,7 @@
     </section>
 
     <!-- Choose section -->
-    <section class="py-10 lg:py-[120px] bg-[#230e3d]">
+    <section class="py-10 lg:py-[120px] bg-[#230e3d] scroll-animate-fadeup">
       <div class="custom-container">
         <h3
           class="text-[31px] lg:text-[48px] text-white font-bold text-center mb-10"
@@ -190,7 +190,7 @@
         </h3>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-[30px]">
           <div
-            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:py-[107px] lg:px-10 lg:row-span-2 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:py-[107px] lg:px-10 lg:row-span-2 col-span-1 row-span-1 scroll-animate-fadeup"
           >
             <img src="./assets/headphone.png" alt="headphone" />
             <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
@@ -203,7 +203,7 @@
             </p>
           </div>
           <div
-            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-10 lg:col-span-2 lg:row-span-1 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-10 lg:col-span-2 lg:row-span-1 col-span-1 row-span-1 scroll-animate-fadeup"
           >
             <img src="./assets/device.png" alt="device" />
             <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
@@ -215,7 +215,7 @@
             </p>
           </div>
           <div
-            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-10 lg:col-span-2 lg:row-span-1 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-10 lg:col-span-2 lg:row-span-1 col-span-1 row-span-1 scroll-animate-fadeup"
           >
             <img src="./assets/location.png" alt="device" />
             <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
@@ -226,7 +226,7 @@
             </p>
           </div>
           <div
-            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-11 lg:col-span-2 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-11 lg:col-span-2 col-span-1 row-span-1 scroll-animate-fadeup"
           >
             <img src="./assets/interview.png" alt="device" />
             <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
@@ -240,7 +240,7 @@
             </p>
           </div>
           <div
-            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-11 lg:col-span-1 col-span-1 row-span-1"
+            class="rounded-3xl lg:rounded-[40px] bg-[#2a0f4d] p-6 lg:p-11 lg:col-span-1 col-span-1 row-span-1 scroll-animate-fadeup"
           >
             <img src="./assets/resource.png" alt="device" />
             <h3 class="text-[22px] lg:text-[24px] my-4 font-bold text-white">
@@ -255,7 +255,7 @@
       </div>
     </section>
     <!-- Featured Episodes -->
-    <section class="pt-10 lg:pt-[120px]" id="episode">
+    <section class="pt-10 lg:pt-[120px] scroll-animate-fadeup" id="episode">
       <div class="custom-container">
         <h3
           class="text-[31px] lg:text-[48px] text-white font-bold text-center mb-6 lg:mb-10"
@@ -265,7 +265,7 @@
         <div
           class="flex justify-center lg:justify-between flex-wrap items-center"
         >
-          <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8">
+          <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8 scroll-animate-fadeup">
             <div class="relative">
               <iframe
                 class="w-full h-[214px] rounded-t-3xl"
@@ -310,7 +310,7 @@
               >
             </div>
           </div>
-          <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8">
+          <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8 scroll-animate-fadeup">
             <div class="relative">
               <iframe
                 class="w-full h-[214px] rounded-t-3xl"
@@ -355,7 +355,7 @@
               >
             </div>
           </div>
-          <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8">
+          <div class="max-w-[380px] rounded-3xl bg-[#250d44] mb-8 scroll-animate-fadeup">
             <div class="relative">
               <iframe
                 class="w-full h-[214px] rounded-t-3xl"
@@ -404,7 +404,7 @@
       </div>
     </section>
     <!-- Meet the Host -->
-    <section class="py-10 lg:py-[120px]" id="host">
+    <section class="py-10 lg:py-[120px] scroll-animate-fadeup" id="host">
       <div class="custom-container">
         <h3
           class="text-[31px] lg:text-[48px] text-white font-bold text-center mb-6 lg:mb-10"

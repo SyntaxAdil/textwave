@@ -1,5 +1,5 @@
 @import "tailwindcss";
-html{
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 40px;
 }
@@ -15,13 +15,11 @@ html{
     margin-left: auto;
     margin-right: auto;
   }
-   .bg-custom-gradiant{
-    background: linear-gradient(220deg,#9100F8,#FB09B4,#F7E93F);
-       
+  .bg-custom-gradiant {
+    background: linear-gradient(220deg, #9100f8, #fb09b4, #f7e93f);
   }
-   .text-custom-gradiant{
-    background: linear-gradient(#9100F8,#FB09B4,#F7E93F);
-       
+  .text-custom-gradiant {
+    background: linear-gradient(#9100f8, #fb09b4, #f7e93f);
   }
 }
 @layer utilities {
@@ -32,18 +30,54 @@ html{
     background-color: #230e3d;
   }
 
-  .animation-custom{
+  .animation-custom {
     animation: custom-animation 2s ease-in-out infinite alternate;
   }
   @keyframes custom-animation {
-    from{
+    from {
       transform: translateY(-5px);
     }
-    to{
+    to {
       transform: translateY(5px);
-
     }
-    
   }
- 
+  .scroll-animate-fadeup {
+    animation: scrollFadeUp both ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+  }
+  @keyframes scrollFadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(300px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fadeup {
+    animation: fadeUp 0.8s linear;
+  }
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fadeshow {
+    animation: fadeshow 1s linear;
+  }
+  @keyframes fadeshow {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
